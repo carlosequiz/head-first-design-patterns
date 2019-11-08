@@ -1,0 +1,12 @@
+// Test class
+public class MiniDuckSimulator {
+    public static void main(String[] args) {
+        Duck mallard = new MallardDuck();
+        mallard.performQuack();
+        mallard.performFly();
+
+        Duck black = new BlackDuck();
+        black.performQuack();
+        black.performFly();
+    }
+}
